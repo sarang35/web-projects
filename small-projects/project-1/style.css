@@ -19,7 +19,7 @@ span {
 
 @keyframes animation {
   0% {
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     filter: hue-rotate(0);
     opacity: 1;
   }
