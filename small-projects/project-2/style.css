@@ -27,14 +27,14 @@ body {
 .btn::before {
   content: "";
   position: absolute;
-  border-radius: 50%;
-  height: 0;
-  width: 0;
-  top:var(--xPos);
-  left: var(--yPos);
   background-color: orangered;
-  transform: translate(-50%,-50%);
-  transition: height 0.5s,width 0.5s;
+  width: 0;
+  height: 0;
+  left: var(--xPos);
+  top: var(--yPos);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: width 0.5s, height 0.5s;
 }
 
 
